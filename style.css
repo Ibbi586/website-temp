@@ -1,0 +1,60 @@
+.top{
+    background-color: #f6f7f7;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.end{
+    background-color: #f6f7f7;
+}
+.content{
+    max-width: 1280px;
+    margin: auto;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+.olx-logo {
+    font-size: 89px;
+}
+.search-icon{
+    background-color: #fff;
+}
+.ss{
+    flex: 1;
+}
+.login-button{
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+}
+.sell-button{
+    background-image: url(assets/icons/sell.svg);
+    border: none;
+    outline: none;
+    height: 48px;
+    width: 104px;
+}
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.grid-item{
+    font-size: 16px;
+    min-height: 116px;
+    width: 106px;
+}
+.card-content{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-image{
+    height: 180px;
+    object-fit: cover;
+
+}
+.opacity{
+    opacity: 0.75;
+}
